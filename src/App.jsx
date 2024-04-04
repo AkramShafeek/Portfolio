@@ -12,7 +12,7 @@ const pages = [
   { id: 'home', component: <Home /> },
   { id: 'projects', component: <Projects /> },
   { id: 'coding', component: <CodingProfile /> },
-  { id: 'gallery', component: <ArtGallery /> },  
+  // { id: 'gallery', component: <ArtGallery /> },  
 ]
 
 const App = () => {

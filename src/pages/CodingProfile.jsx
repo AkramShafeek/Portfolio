@@ -61,7 +61,7 @@ const CodingProfile = () => {
         ))}
       </div>
       <div className="flex gap-4 items-center justify-center">
-        <h2 className='text-3xl font-semibold text-slate-500'>
+        <h2 className='text-3xl max-sm:text-xl font-semibold text-slate-500'>
           Problems solved
         </h2>
         <h2 className='text-3xl font-bold text-emerald-500'>

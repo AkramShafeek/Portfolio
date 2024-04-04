@@ -1,25 +1,25 @@
 import { Divider } from '@nextui-org/react'
 import React from 'react'
-
 import { githubIcon, linkedinIcon, contactSolid } from '../assets';
+import { githubLink, linkedinLink, email } from '../constants/socialLinks';
 
 const Footer = () => {
   return (
     <div className="w-full p-5 bg-slate-950/40">
       <div className="flex justify-between p-3 pt-7 text-white/65">
         <div className="flex flex-col p-2 gap-4">
-          <div className="flex gap-4">
+          <a href={linkedinLink} target='_blank' className="flex gap-4">
             <img src={linkedinIcon} alt="github" className='w-[20px] h-[20px] object-cover invert opacity-75' />
             <p>LinkedIn</p>
-          </div>
-          <div className="flex gap-4">
+          </a>
+          <a href={githubLink} target='_blank' className="flex gap-4">
             <img src={githubIcon} alt="github" className='w-[20px] h-[20px] object-contain invert opacity-75' />
             <p>GitHub</p>
-          </div>
-          <div className="flex gap-4">
+          </a>
+          <a href={email} target='_blank' className="flex gap-4">
             <img src={contactSolid} alt="github" className='w-[20px] h-[20px] object-contain invert opacity-75' />
             <p>Gmail</p>
-          </div>
+          </a>
         </div>
         {/* <div className="flex items-end text-white/65 p-2">
           <p className='text-sm'>Back to top</p>
