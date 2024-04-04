@@ -60,7 +60,7 @@ const HeroComponent = () => {
   }, []);
 
   return (
-    <div className="min-h-screen w-full flex max-md:flex-col justify-between pt-20 pb-20 items-center relative max-sm:bottom-20 max-sm:mt-12">
+    <div className="lg:h-screen w-full flex max-md:flex-col justify-between max-sm:pt-20 items-center relative max-sm:bottom-20 max-sm:mt-12">
       <div className="w-full rounded-md flex flex-col lg:flex-row justify-between max-md:items-center ">
         <div className="flex justify-center w-11/12 md:w-8/12 lg:justify-start rounded-md overflow-hidden">
           <img src={heroBackground} alt="background-image" style={{
