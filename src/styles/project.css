@@ -1,0 +1,15 @@
+.link-button {
+  background-image: linear-gradient(to right, #114594 0%, #104088 51%, #104181 100%);    
+  text-align: center;  
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;    
+  display: block;
+}
+
+.link-button:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,22 @@
+.coding-profile {
+  border-radius: 10px;
+}
+
+.coding-logo-bg {
+  background-color: rgb(212, 212, 212);
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #048d6b 0%, #02db93 51%, #03a871 100%);    
+  text-align: center;  
+  transition: 400ms ease-in-out;
+  background-size: 200% auto;  
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center;  
+  color: #fff;
+  text-decoration: none;
+}
