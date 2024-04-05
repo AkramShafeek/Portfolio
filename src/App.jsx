@@ -32,11 +32,11 @@ const App = () => {
   }, [page]);
 
   const openPage = (page) => {
-    setHide(true);
-    setTimeout(() => {
-      setHide(false);
-      setPage(page);
-    }, 500);
+    // setHide(true);
+    // setTimeout(() => {
+    //   setHide(false);
+    //   setPage(page);
+    // }, 500);
   }
 
   const callback = (newPage) => {
@@ -54,10 +54,10 @@ const App = () => {
         <MobileNavbar />
         <div className='relative flex items-center w-full flex-col gap-2 rounded-md box-border'>
           <div className={`${hide ? 'opacity-0' : 'opacity-100'} transition-all flex flex-col items-center justify-center w-11/12 lg:w-4/5 2xl:w-3/5`}>
-            <div className="max-md:hidden w-full">
+            {/* <div className="max-md:hidden w-full">
               {pages[page].component}
-            </div>
-            <div className="lg:hidden w-full">
+            </div> */}
+            <div className="w-full">
               {pages.map((page, index) => (<div key={index} id={page.id}>{page.component}</div>))}
             </div>
           </div>
